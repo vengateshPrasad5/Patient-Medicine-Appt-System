@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added user servlet actions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorChangePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorEditProfileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorLoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorLogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/UpdateStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/allcss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footersimple.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
+    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="minor changes">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/comment.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +34,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -62,13 +52,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Medical-Appt-FS [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Smart Tomcat.Tomcat: Medical-Appt-FS.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS/src/main/webapp",
+    "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -76,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Medical-Appt-FS" />
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\webapp" />
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\java\com\mafs" />
     </key>
@@ -90,7 +82,8 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="" />
+      <option name="adminPort" value="8006" />
+      <option name="catalinaBase" value="C:\Users\HP\.SmartTomcat\Medical-Appt-FS\Medical-Appt-FS" />
       <option name="contextPath" value="/Medical-Appt-FS" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="envOptions">
@@ -168,7 +161,71 @@
       <option name="project" value="LOCAL" />
       <updated>1717740802801</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added doctor servlet actions">
+      <option name="closed" value="true" />
+      <created>1717741229905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717741229905</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added images">
+      <option name="closed" value="true" />
+      <created>1717741270362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717741270362</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added header and footer">
+      <option name="closed" value="true" />
+      <created>1717743304700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717743304700</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modified navbar">
+      <option name="closed" value="true" />
+      <created>1717743413232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717743413232</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added landing page">
+      <option name="closed" value="true" />
+      <created>1717743520139</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717743520139</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added landing page">
+      <option name="closed" value="true" />
+      <created>1717743612032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717743612032</updated>
+    </task>
+    <task id="LOCAL-00013" summary="css changes">
+      <option name="closed" value="true" />
+      <created>1717744338366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717744338366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1717744446755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717744446755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +236,13 @@
     <MESSAGE value="removed spaces Doctor entity" />
     <MESSAGE value="added dao" />
     <MESSAGE value="added user servlet actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user servlet actions" />
+    <MESSAGE value="added doctor servlet actions" />
+    <MESSAGE value="added images" />
+    <MESSAGE value="added header and footer" />
+    <MESSAGE value="modified navbar" />
+    <MESSAGE value="added landing page" />
+    <MESSAGE value="css changes" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
