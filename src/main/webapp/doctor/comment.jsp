@@ -140,7 +140,7 @@
 							<div class="col-md-12">
 								<label class="form-label">Leave a Comment / Prescription</label>
 								<textarea name="comment" placeholder="Leave a comment"
-									class="form-control" rows="" cols=""></textarea>
+									class="form-control" rows="" cols=""> <%= appointment.getStatus()%> </textarea>
 							</div>
 
 							<!-- which appointment's comment is it / comment Id -->
