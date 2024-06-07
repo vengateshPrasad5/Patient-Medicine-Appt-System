@@ -30,8 +30,6 @@
 	<%@include file="component/navbar.jsp"%>
 	<!-- end navbar -->
 
-
-
 	<!-- <h1>User Login</h1> -->
 
 	<!-- User Login -->
@@ -62,8 +60,6 @@
 							<c:remove var="errorMsg" scope="session" />
 						</c:if>
 						<!-- end of message -->
-
-
 
 						<!-- boostrap form -->
 						<form action="userLogin" method="post">

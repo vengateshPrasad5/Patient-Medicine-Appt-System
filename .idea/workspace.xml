@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="minor changes">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/comment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
+    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added add appointment">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_appointment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view_appointment.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -60,16 +62,21 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS" />
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\webapp" />
+      <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\java\com\mafs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mafs.entity" />
@@ -225,7 +232,55 @@
       <option name="project" value="LOCAL" />
       <updated>1717744446755</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added doctor pages">
+      <option name="closed" value="true" />
+      <created>1717744933579</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717744933579</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added user signup">
+      <option name="closed" value="true" />
+      <created>1717745335398</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717745335398</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added change password">
+      <option name="closed" value="true" />
+      <created>1717747510427</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717747510427</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update comment feature added">
+      <option name="closed" value="true" />
+      <created>1717755392530</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755392530</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Text updated">
+      <option name="closed" value="true" />
+      <created>1717755585419</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755585419</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added doctor and user login">
+      <option name="closed" value="true" />
+      <created>1717757046825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717757046825</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +298,12 @@
     <MESSAGE value="added landing page" />
     <MESSAGE value="css changes" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="added doctor pages" />
+    <MESSAGE value="added user signup" />
+    <MESSAGE value="added change password" />
+    <MESSAGE value="update comment feature added" />
+    <MESSAGE value="Text updated" />
+    <MESSAGE value="added doctor and user login" />
+    <option name="LAST_COMMIT_MESSAGE" value="added doctor and user login" />
   </component>
 </project>
