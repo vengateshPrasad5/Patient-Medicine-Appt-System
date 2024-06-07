@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="removed spaces Doctor entity">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/AppointmentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/DoctorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/SpecialistDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/UserDAO.java" afterDir="false" />
+    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added user servlet actions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorChangePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorEditProfileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/DoctorLogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/doctor/servlet/UpdateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/allcss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/footersimple.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/comment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/edit_profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doctor/patient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doc4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +68,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS/src/main/java/com/mafs",
+    "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS/src/main/webapp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -62,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\webapp" />
       <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\java\com\mafs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -137,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717731396970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added dao">
+      <option name="closed" value="true" />
+      <created>1717736485564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717736485564</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added user servlet actions">
+      <option name="closed" value="true" />
+      <created>1717740802801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717740802801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +177,8 @@
     <MESSAGE value="added db conn and updated pom.xml" />
     <MESSAGE value="added entity" />
     <MESSAGE value="removed spaces Doctor entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed spaces Doctor entity" />
+    <MESSAGE value="added dao" />
+    <MESSAGE value="added user servlet actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user servlet actions" />
   </component>
 </project>
