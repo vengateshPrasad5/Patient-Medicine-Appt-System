@@ -14,8 +14,40 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
+    <dependency>
+      <groupId>javax.el</groupId>
+      <artifactId>javax.el-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
   </dependencies>
   <build>
+    <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version>
+          </plugin>
+    </plugins>
     <finalName>Medical-Appt-FS</finalName>
   </build>
 </project>
