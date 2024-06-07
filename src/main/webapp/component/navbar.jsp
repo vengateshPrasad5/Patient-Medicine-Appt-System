@@ -24,10 +24,6 @@
 				<!-- to create dynamic navbar -->
 
 				<c:if test="${empty userObj}">
-
-					/* <li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="admin_login.jsp"><i
-							class="fa-solid fa-right-to-bracket"></i> ADMIN</a></li> */
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="doctor_login.jsp">
 						<i class="fas fa-sign-in-alt"></i> DOCTOR</a></li>
@@ -81,7 +77,7 @@
 						</ul></li> --%>
 
 				</c:if>
-				<!-- end of if user is logged in then user can see below items -->
+				<!-- end -->
 
 			</ul>
 
