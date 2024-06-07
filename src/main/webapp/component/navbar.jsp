@@ -49,8 +49,6 @@
 						aria-current="page" href="view_appointment.jsp"><i class="fa fa-calendar-check-o"></i> VIEW APPOINTMENT</a></li>
 
 
-
-
 					<div class="dropdown">
 						<button class="btn btn-outline-light dropdown-toggle" type="button"
 							id="dropdownMenuButton1" data-bs-toggle="dropdown"
