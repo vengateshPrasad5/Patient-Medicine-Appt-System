@@ -80,7 +80,7 @@
 									<th scope="col">Appointment Date</th>
 									<th scope="col">Email</th>
 									<th scope="col">Phone</th>
-									<th scope="col">Diseases</th>
+									<th scope="col">Reason for Visit</th>
 									<th scope="col">Status</th>
 									<th scope="col">Action</th>
 								</tr>
@@ -110,12 +110,12 @@
 										<%
 										if ("Pending".equals(applist.getStatus())) {
 										%> <a href="comment.jsp?id=<%=applist.getId()%>"
-										class="btn btn-success btn-sm">Comment / Prescription</a> 
+										class="btn btn-success btn-sm">Add diagnosis / Prescription</a>
 										<%
  										} else {
  										%> 
- 										 <a href="#!" class="btn btn-success btn-sm disabled"><i
-											class="fa fa-comment"></i> Comment / Prescription</a>
+ 										 <a href="comment.jsp?id=<%=applist.getId()%>" class="btn btn-success btn-sm"><i
+											class="fa fa-comment"></i> Update diagnosis / Prescription</a>
 											 
 										<%
  										}

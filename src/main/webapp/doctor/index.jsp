@@ -69,7 +69,7 @@
 					<div class="card-body text-center text-success">
 						<i class="fa-solid fa-user-doctor fa-3x"></i><br>
 						<p class="fs-4 text-center">
-							Doctor <br><%= totalNumberOfDoctor %>
+							Total Doctors <br><%= totalNumberOfDoctor %>
 						</p>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 					<div class="card-body text-center text-success">
 						<i class="fa-solid fa-calendar-check fa-3x"></i><br>
 						<p class="fs-4 text-center">
-						<a class="nav-link active" aria-current="page" href="patient.jsp">
+						<a class="text-success" aria-current="page" href="patient.jsp">
 							Total Appointment <br> <%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
 						</a>
 						</p>
