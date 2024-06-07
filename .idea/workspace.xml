@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added db conn and updated pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/entity/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/entity/Specialist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added entity" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +53,11 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mafs.entity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat: Medical-Appt-FS" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -111,13 +111,22 @@
       <option name="project" value="LOCAL" />
       <updated>1717727975014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added entity">
+      <option name="closed" value="true" />
+      <created>1717730640731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717730640732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="added db conn and updated pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added db conn and updated pom.xml" />
+    <MESSAGE value="added entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="added entity" />
   </component>
 </project>

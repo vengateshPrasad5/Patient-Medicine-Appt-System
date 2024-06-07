@@ -10,13 +10,10 @@ public class Doctor {
 	private String email;
 	private String phone;
 	private String password;
-	
-	
+
 	public Doctor() {
 		super();
 	}
-
-
 	public Doctor(String fullName, String dateOfBirth, String qualification, String specialist, String email,
                   String phone, String password) {
 		super();
@@ -28,7 +25,6 @@ public class Doctor {
 		this.phone = phone;
 		this.password = password;
 	}
-
 	public Doctor(int id, String fullName, String dateOfBirth, String qualification, String specialist, String email,
                   String phone, String password) {
 		super();
@@ -41,7 +37,6 @@ public class Doctor {
 		this.phone = phone;
 		this.password = password;
 	}
-
 	public int getId() {
 		return id;
 	}
