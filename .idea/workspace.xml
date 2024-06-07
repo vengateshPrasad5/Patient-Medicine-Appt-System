@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="added entity" />
+    <list default="true" id="0c78742c-7c84-4576-a236-f1837cc3b87f" name="Changes" comment="removed spaces Doctor entity">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/AppointmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/DoctorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/SpecialistDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mafs/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,12 +54,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/Downloads/Medical-Appt-FS/src/main/java/com/mafs",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Medical-Appt-FS\src\main\java\com\mafs" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mafs.entity" />
     </key>
@@ -119,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717730640732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed spaces Doctor entity">
+      <option name="closed" value="true" />
+      <created>1717731396970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717731396970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +145,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added db conn and updated pom.xml" />
     <MESSAGE value="added entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added entity" />
+    <MESSAGE value="removed spaces Doctor entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed spaces Doctor entity" />
   </component>
 </project>
