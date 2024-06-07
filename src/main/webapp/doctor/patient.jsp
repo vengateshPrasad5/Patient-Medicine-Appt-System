@@ -81,7 +81,7 @@
 									<th scope="col">Email</th>
 									<th scope="col">Phone</th>
 									<th scope="col">Reason for Visit</th>
-									<th scope="col">Status</th>
+									<th scope="col">Diagnosis / Prescription</th>
 									<th scope="col">Action</th>
 								</tr>
 							</thead>

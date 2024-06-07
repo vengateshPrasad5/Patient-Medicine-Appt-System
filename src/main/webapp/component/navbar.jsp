@@ -28,7 +28,7 @@
 						aria-current="page" href="doctor_login.jsp">
 						<i class="fas fa-sign-in-alt"></i> DOCTOR</a></li>
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="user_appointment.jsp"><i class="fa fa-book fa-1x"></i> APPOINTMENT</a></li>
+						aria-current="page" href="user_appointment.jsp"><i class="fa fa-book fa-1x"></i> ADD APPOINTMENT</a></li>
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="user_login.jsp"><i class="fas fa-sign-in-alt"></i> USER</a></li>
 
@@ -44,7 +44,7 @@
 				<c:if test="${not empty userObj }">
 					<!-- means user is log in -->
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="user_appointment.jsp"><i class="fa fa-book fa-1x"></i> APPOINTMENT</a></li>
+						aria-current="page" href="user_appointment.jsp"><i class="fa fa-book fa-1x"></i> ADD APPOINTMENT</a></li>
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="view_appointment.jsp"><i class="fa fa-calendar-check-o"></i> VIEW APPOINTMENT</a></li>
 
